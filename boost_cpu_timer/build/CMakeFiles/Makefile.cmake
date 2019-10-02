@@ -119,5 +119,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Main.dir/DependInfo.cmake"
+  "CMakeFiles/test_mine.dir/DependInfo.cmake"
+  "CMakeFiles/cpu_timer_info.dir/DependInfo.cmake"
   )

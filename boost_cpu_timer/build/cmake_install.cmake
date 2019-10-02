@@ -1,4 +1,4 @@
-# Install script for directory: /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_timer
+# Install script for directory: /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kavehakbarihamed/Documents/Boost_CMake_test/boost_timer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,1 @@
+/usr/bin/g++-8    -rdynamic CMakeFiles/test_mine.dir/test_mine.cpp.o  -o test_mine -lboost_timer -lboost_chrono -lboost_system 

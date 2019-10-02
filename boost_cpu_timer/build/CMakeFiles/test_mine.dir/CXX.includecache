@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kavehakbarihamed/Documents/Boost_CMake_test/boost_timer/main.cpp
+/home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer/test_mine.cpp
 boost/timer/timer.hpp
 -
 cmath

@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_timer
+CMAKE_SOURCE_DIR = /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_timer/build
+CMAKE_BINARY_DIR = /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_timer/build/CMakeFiles /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_timer/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer/build/CMakeFiles /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_timer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Main
+# Target rules for targets named test_mine
 
 # Build rule for target.
-Main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Main
-.PHONY : Main
+test_mine: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_mine
+.PHONY : test_mine
 
 # fast build rule for target.
-Main/fast:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
-.PHONY : Main/fast
+test_mine/fast:
+	$(MAKE) -f CMakeFiles/test_mine.dir/build.make CMakeFiles/test_mine.dir/build
+.PHONY : test_mine/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named cpu_timer_info
 
-.PHONY : main.o
+# Build rule for target.
+cpu_timer_info: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cpu_timer_info
+.PHONY : cpu_timer_info
+
+# fast build rule for target.
+cpu_timer_info/fast:
+	$(MAKE) -f CMakeFiles/cpu_timer_info.dir/build.make CMakeFiles/cpu_timer_info.dir/build
+.PHONY : cpu_timer_info/fast
+
+cpu_timer_info.o: cpu_timer_info.cpp.o
+
+.PHONY : cpu_timer_info.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/main.cpp.o
-.PHONY : main.cpp.o
+cpu_timer_info.cpp.o:
+	$(MAKE) -f CMakeFiles/cpu_timer_info.dir/build.make CMakeFiles/cpu_timer_info.dir/cpu_timer_info.cpp.o
+.PHONY : cpu_timer_info.cpp.o
 
-main.i: main.cpp.i
+cpu_timer_info.i: cpu_timer_info.cpp.i
 
-.PHONY : main.i
+.PHONY : cpu_timer_info.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/main.cpp.i
-.PHONY : main.cpp.i
+cpu_timer_info.cpp.i:
+	$(MAKE) -f CMakeFiles/cpu_timer_info.dir/build.make CMakeFiles/cpu_timer_info.dir/cpu_timer_info.cpp.i
+.PHONY : cpu_timer_info.cpp.i
 
-main.s: main.cpp.s
+cpu_timer_info.s: cpu_timer_info.cpp.s
 
-.PHONY : main.s
+.PHONY : cpu_timer_info.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/main.cpp.s
-.PHONY : main.cpp.s
+cpu_timer_info.cpp.s:
+	$(MAKE) -f CMakeFiles/cpu_timer_info.dir/build.make CMakeFiles/cpu_timer_info.dir/cpu_timer_info.cpp.s
+.PHONY : cpu_timer_info.cpp.s
+
+test_mine.o: test_mine.cpp.o
+
+.PHONY : test_mine.o
+
+# target to build an object file
+test_mine.cpp.o:
+	$(MAKE) -f CMakeFiles/test_mine.dir/build.make CMakeFiles/test_mine.dir/test_mine.cpp.o
+.PHONY : test_mine.cpp.o
+
+test_mine.i: test_mine.cpp.i
+
+.PHONY : test_mine.i
+
+# target to preprocess a source file
+test_mine.cpp.i:
+	$(MAKE) -f CMakeFiles/test_mine.dir/build.make CMakeFiles/test_mine.dir/test_mine.cpp.i
+.PHONY : test_mine.cpp.i
+
+test_mine.s: test_mine.cpp.s
+
+.PHONY : test_mine.s
+
+# target to generate assembly for a file
+test_mine.cpp.s:
+	$(MAKE) -f CMakeFiles/test_mine.dir/build.make CMakeFiles/test_mine.dir/test_mine.cpp.s
+.PHONY : test_mine.cpp.s
 
 # Help Target
 help:
@@ -157,11 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Main"
+	@echo "... test_mine"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... cpu_timer_info"
+	@echo "... cpu_timer_info.o"
+	@echo "... cpu_timer_info.i"
+	@echo "... cpu_timer_info.s"
+	@echo "... test_mine.o"
+	@echo "... test_mine.i"
+	@echo "... test_mine.s"
 .PHONY : help
 
 
