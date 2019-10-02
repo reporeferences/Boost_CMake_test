@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kavehakbarihamed/Documents/Boost_CMake_test/boost_timer/main.cpp
+boost/timer/timer.hpp
+-
+cmath
+-
+

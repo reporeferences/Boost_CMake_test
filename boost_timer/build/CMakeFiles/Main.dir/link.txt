@@ -1,0 +1,1 @@
+/usr/bin/g++-8    -rdynamic CMakeFiles/Main.dir/main.cpp.o  -o Main -lboost_timer -lboost_chrono -lboost_system 
