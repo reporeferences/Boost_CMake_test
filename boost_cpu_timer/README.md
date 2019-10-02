@@ -1,4 +1,4 @@
-# boost timer test
+# boost cpu timer test
 
 ## how to execute
 

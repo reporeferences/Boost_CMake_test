@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer/test_mine.cpp" "/home/kavehakbarihamed/Documents/Boost_CMake_test/boost_cpu_timer/build/CMakeFiles/test_mine.dir/test_mine.cpp.o"
+  "/home/kavehakbarihamed/Documents/adf/Boost_CMake_test/boost_cpu_timer/test_mine.cpp" "/home/kavehakbarihamed/Documents/adf/Boost_CMake_test/boost_cpu_timer/build/CMakeFiles/test_mine.dir/test_mine.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
