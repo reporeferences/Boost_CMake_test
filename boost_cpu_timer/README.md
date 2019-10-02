@@ -16,5 +16,5 @@ $ make
 ```
 
 ```
-$ ./Main
+$ ./(any executable file name that I wrote)
 ```
