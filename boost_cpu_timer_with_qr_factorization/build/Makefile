@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kavehakbarihamed/Documents/adf/Boost_CMake_test/boost_cpu_timer_with_qr_factorization
+CMAKE_SOURCE_DIR = /home/kavehakbarihamed/from_github/Boost_CMake_test/boost_cpu_timer_with_qr_factorization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kavehakbarihamed/Documents/adf/Boost_CMake_test/boost_cpu_timer_with_qr_factorization/build
+CMAKE_BINARY_DIR = /home/kavehakbarihamed/from_github/Boost_CMake_test/boost_cpu_timer_with_qr_factorization/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kavehakbarihamed/Documents/adf/Boost_CMake_test/boost_cpu_timer_with_qr_factorization/build/CMakeFiles /home/kavehakbarihamed/Documents/adf/Boost_CMake_test/boost_cpu_timer_with_qr_factorization/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kavehakbarihamed/from_github/Boost_CMake_test/boost_cpu_timer_with_qr_factorization/build/CMakeFiles /home/kavehakbarihamed/from_github/Boost_CMake_test/boost_cpu_timer_with_qr_factorization/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kavehakbarihamed/Documents/adf/Boost_CMake_test/boost_cpu_timer_with_qr_factorization/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kavehakbarihamed/from_github/Boost_CMake_test/boost_cpu_timer_with_qr_factorization/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
